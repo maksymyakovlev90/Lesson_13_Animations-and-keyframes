@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Animation and keyframes</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <h1 class="header__title">animatable</h1>
+                <h3 class="header__subtitle">One property, two values, endless possibilities</h3>
+            </div>
+        </header>
+        <main class="content">
+            <div class="content__container">
+                <div class="content__block block">
+                    <div class="block__box block__box--bgcolor">
+                        <div class="block__number">1</div>
+                        <h5 class="block__title">background-color</h5>
+                    </div>
+
+                    <div class="block__box block__box--bgpos1">
+                        <div class="block__number">2</div>
+                        <h5 class="block__title">background-position</h5>
+                    </div>
+
+                    <div class="block__box block__box--bgpos2">
+                        <div class="block__number">3</div>
+                        <h5 class="block__title">background-position</h5>
+                    </div>
+
+                    <div class="block__box block__box--bgsize">
+                        <div class="block__number">4</div>
+                        <h5 class="block__title">background-size</h5>
+                    </div>
+
+                    <div class="block__box block__box--bdrad1">
+                        <div class="block__number">5</div>
+                        <h5 class="block__title">border-radius</h5>
+                    </div>
+
+                    <div class="block__box block__box--bdrad2">
+                        <div class="block__number">6</div>
+                        <h5 class="block__title">border-radius</h5>
+                    </div>
+
+                    <div class="block__box block__box--bdwdt1">
+                        <div class="block__number">7</div>
+                        <h5 class="block__title">border-width</h5>
+                    </div>
+
+                    <div class="block__box block__box--bdwdt2">
+                        <div class="block__number">8</div>
+                        <h5 class="block__title">border-width</h5>
+                    </div>
+
+                    <div class="block__box block__box--bdwdt3">
+                        <div class="block__number">9</div>
+                        <h5 class="block__title">border-width</h5>
+                    </div>
+
+                    <div class="block__box block__box--bxsdw1">
+                        <div class="block__number">10</div>
+                        <h5 class="block__title">box-shadow</h5>
+                    </div>
+
+                    <div class="block__box block__box--bxsdw2">
+                        <div class="block__number">11</div>
+                        <h5 class="block__title">box-shadow</h5>
+                    </div>
+
+                    <div class="block__box block__box--bxsdw3">
+                        <div class="block__number">12</div>
+                        <h5 class="block__title">box-shadow</h5>
+                    </div>
+
+                    <div class="block__box block__box--color">
+                        <div class="block__number">13</div>
+                        <h5 class="block__title">color</h5>
+                    </div>
+
+                    <div class="block__box block__box--fz">
+                        <div class="block__number">14</div>
+                        <h5 class="block__title">font-size</h5>
+                    </div>
+
+                    <div class="block__box block__box--height">
+                        <div class="block__number">15</div>
+                        <h5 class="block__title">height</h5>
+                    </div>
+
+                    <div class="block__box block__box--ltrspacing">
+                        <div class="block__number">16</div>
+                        <h5 class="block__title">letter-spacing</h5>
+                    </div>
+
+                    <div class="block__box block__box--lineht">
+                        <div class="block__number">17</div>
+                        <h5 class="block__title">line-height</h5>
+                    </div>
+
+                    <div class="block__box block__box--opacity">
+                        <div class="block__number">18</div>
+                        <h5 class="block__title">opacity</h5>
+                    </div>
+
+                    <div class="block__box block__box--outwdth">
+                        <div class="block__number">19</div>
+                        <h5 class="block__title">outline-width</h5>
+                    </div>
+
+                    <div class="block__box block__box--outoff">
+                        <div class="block__number">20</div>
+                        <h5 class="block__title">outline-offset</h5>
+                    </div>
+
+                    <div class="block__box block__box--outcolor">
+                        <div class="block__number">21</div>
+                        <h5 class="block__title">outline-color</h5>
+                    </div>
+
+                    <div class="block__box block__box--padding">
+                        <div class="block__number">22</div>
+                        <h5 class="block__title">padding</h5>
+                    </div>
+
+                    <div class="block__box block__box--textindent">
+                        <div class="block__number">23</div>
+                        <h5 class="block__title">text-indent</h5>
+                    </div>
+
+                    <div class="block__box block__box--textshadow1">
+                        <div class="block__number">24</div>
+                        <h5 class="block__title">text-shadow</h5>
+                    </div>
+
+                    <div class="block__box block__box--textshadow2">
+                        <div class="block__number">25</div>
+                        <h5 class="block__title">text-shadow</h5>
+                    </div>
+
+                    <div class="block__box block__box--textshadow3">
+                        <div class="block__number">26</div>
+                        <h5 class="block__title">text-shadow</h5>
+                    </div>
+
+                    <div class="block__box block__box--top">
+                        <div class="block__number">27</div>
+                        <h5 class="block__title">top</h5>
+                    </div>
+
+                    <div class="block__box block__box--transform1">
+                        <div class="block__number">28</div>
+                        <h5 class="block__title">transform</h5>
+                    </div>
+
+                    <div class="block__box block__box--transform2">
+                        <div class="block__number">29</div>
+                        <h5 class="block__title">transform</h5>
+                    </div>
+
+                    <div class="block__box block__box--transform3">
+                        <div class="block__number">30</div>
+                        <h5 class="block__title">transform</h5>
+                    </div>
+
+                    <div class="block__box block__box--transform4">
+                        <div class="block__number">31</div>
+                        <h5 class="block__title">transform</h5>
+                    </div>
+
+                    <div class="block__box block__box--transform5">
+                        <div class="block__number">32</div>
+                        <h5 class="block__title">transform</h5>
+                    </div>
+
+                    <div class="block__box block__box--transform6">
+                        <div class="block__number">33</div>
+                        <h5 class="block__title">transform</h5>
+                    </div>
+
+                    <div class="block__box block__box--transform7">
+                        <div class="block__number">34</div>
+                        <h5 class="block__title">transform</h5>
+                    </div>
+
+                    <div class="block__box block__box--transform8">
+                        <div class="block__number">35</div>
+                        <h5 class="block__title">transform</h5>
+                    </div>
+
+                    <div class="block__box block__box--transform9">
+                        <div class="block__number">36</div>
+                        <h5 class="block__title">transform</h5>
+                    </div>
+
+                    <div class="block__box block__box--transform10">
+                        <div class="block__number">37</div>
+                        <h5 class="block__title">transform</h5>
+                    </div>
+
+                    <div class="block__box block__box--transformorigin">
+                        <div class="block__number">38</div>
+                        <h5 class="block__title">transform-origin</h5>
+                    </div>
+
+                    <div class="block__box block__box--width">
+                        <div class="block__number">39</div>
+                        <h5 class="block__title">width</h5>
+                    </div>
+                
+                
+                <!-- <div class="content__box10">box-shadow</div>
+            
+                <div class="content__box29">transform</div>
+                <div class="content__box30">transform</div>
+                <div class="content__box31">transform</div>
+                <div class="content__box32">transform</div>
+                <div class="content__box33">transform</div>
+                <div class="content__box34">transform</div>
+                <div class="content__box35">transform</div>
+                <div class="content__box36">transform</div>
+                <div class="content__box37">transform</div>
+                <div class="content__box38">transform-origin</div>
+                <div class="content__box39">width</div> -->
+                </div>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+</body>
+</html>
